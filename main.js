@@ -1,9 +1,10 @@
 //task number 1
-let Str = "123";
+/* let Str = "123";
 let Num = Number(Str) + 7;
-console.log({ Num });
+console.log({ Num }); */
+
 // tassk number 2
-let Num1 = 0;
+/* let Num1 = 0;
 if (Num1 == false) {
   let Str1 = "ivaild";
   console.log({ Str1 });
@@ -27,9 +28,9 @@ console.log({ Result });
 const Arr1 = [1, 2, 3];
 const Arr2 = [4, 5, 6];
 const Arr3 = [...Arr1, ...Arr2];
-console.log({ Arr3 });
+console.log({ Arr3 }); */
 
-//taskk number 6
+/* //taskk number 6
 var Day = 7;
 switch (Day) {
   case 1:
@@ -59,13 +60,13 @@ switch (Day) {
   default:
     console.log({ Day }, "invaild");
     break;
-}
+} */
 // taskk number 7
-const Arr4 = ["ab", "a", "abc"];
+/* const Arr4 = ["ab", "a", "abc"];
 let Arr5 = Arr4.map((str) => str.length);
 console.log(Arr5);
-
-//taskk number 8
+ */
+/* //taskk number 8
 let Num3 = 60;
 if (Num3 % 3 == 0 && Num3 % 5 == 0) {
   console.log("divided by both  ");
@@ -85,34 +86,56 @@ const user1 = {
 console.log(Object(user1.name1 + " is " + user1.age1 + " years old "));
 
 //task n 11
-function Multiple (...nums){
-    let sum = 0;
-    for (let n of  nums ){
-        sum += n;
-    }
-    return sum
+function Multiple(...nums) {
+  let sum = 0;
+  for (let n of nums) {
+    sum += n;
+  }
+  return sum;
 }
-console.log((Multiple(5,6,7,10)))
+console.log(Multiple(5, 6, 7, 10)); */
+//task n 12
+/* function one() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve({ message: " Success" });
+    }, 3000);
+  });
+}
+one().then((data) => {
+  console.log(data);
+});
+ */
 //task n 13
 
-const Arr9=[1,3,5,7,2,4]
-let max =0;
+/* const Arr9 = [1, 3, 5, 7, 2, 4];
+let max = 0;
 for (let i = 1; i < Arr9.length; i++) {
-
-    if (Arr9[i]>max) {
-       max= Arr9[i];
-    }
-    
+  if (Arr9[i] > max) {
+    max = Arr9[i];
+  }
 }
-console.log(max)
+console.log(max);
+
 //task n 14
 const userInformation = {
   name: "mohamed",
   age: 21,
   gender: "male",
+
 };
 console.log(Object.keys(userInformation));
 //task n 15
 var text = "the quick brown fox";
 var Arr8 = text.split(" ");
 console.log(Arr8);
+ */
+
+//part 2 
+/* 1. forEach ( return undefined cant use break and continue )
+for of( return new array can use break and continue) */
+/* 2.   hosting :function and values moved to the top of their scope, time between the scope and the line of declare the values */
+/* 3. == only compares value 
+=== compare value and data type */
+/* 4.try have condition or logic if there a error in the logic inside it js throw it in the catch to handle it easier */
+/* 5.conversion  manually convert the data type coercion automatically convert it for compersion or concatition */
